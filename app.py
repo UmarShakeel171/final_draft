@@ -5,7 +5,7 @@ from osgeo import ogr
 app = Flask(__name__)
 
 # Specify the absolute path to the uploads folder
-UPLOAD_FOLDER = r'C:\\Users\\manst\\Desktop\\Flask app\\uploads'
+UPLOAD_FOLDER = r'/app/uplaods'
 
 # Ensure that the uploads folder exists
 if not os.path.exists(UPLOAD_FOLDER):
